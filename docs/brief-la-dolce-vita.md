@@ -69,7 +69,7 @@ Al hacer click, cada cuadro llevaría a la sección/categoría correspondiente.
 |---|---|---|
 | **BARBUTI** | 3 (blazer cruzado gris oscuro, esmoquin blanco solapa negra satinada, blazer cruzado azul marino solapa satinada) | `assets/moda-hombre/barbuti/` |
 | **Harmont & Blaine** | 5 (polo roja cuello azul con escudo HB, camisa celeste con logo perrito, camisa lino beige con logo perrito, polo azul marino con estampado, polo celeste con ribete blanco) | `assets/moda-hombre/harmont-blaine/` |
-| **SORBINO** | 5 (camisa azul marino estampada, blazer cruzado beige, polo tejido verde, camisa azul estampada, short azul marino) | `assets/moda-hombre/sorbino/` |
+| **SORBINO** | 7 (camisa azul marino estampada, blazer cruzado beige, polo tejido verde, camisa azul estampada, short azul marino, camisa lisa azul marino, short gris claro) | `assets/moda-hombre/sorbino/` |
 
 *(Faltan las demás marcas — ver sección 6).*
 
