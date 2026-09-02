@@ -61,7 +61,15 @@ Al hacer click, cada cuadro llevaría a la sección/categoría correspondiente.
 
 - Título de sección: `MODA HOMBRE`
 - Organizada por **subcategorías de marca** (una fila/grid por marca), según las imágenes
-  recibidas — *pendientes, ver sección 5*.
+  recibidas.
+
+**Marcas recibidas hasta ahora:**
+
+| Marca | Imágenes | Ruta en el repo |
+|---|---|---|
+| **BARBUTI** | 3 (blazer cruzado gris oscuro, esmoquin blanco solapa negra satinada, blazer cruzado azul marino solapa satinada) | `assets/moda-hombre/barbuti/` |
+
+*(Faltan las demás marcas — ver sección 6).*
 
 ### 3.3 Sección NOVEDADES
 
