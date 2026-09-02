@@ -68,6 +68,7 @@ Al hacer click, cada cuadro llevaría a la sección/categoría correspondiente.
 | Marca | Imágenes | Ruta en el repo |
 |---|---|---|
 | **BARBUTI** | 3 (blazer cruzado gris oscuro, esmoquin blanco solapa negra satinada, blazer cruzado azul marino solapa satinada) | `assets/moda-hombre/barbuti/` |
+| **Harmont & Blaine** | 5 (polo roja cuello azul con escudo HB, camisa celeste con logo perrito, camisa lino beige con logo perrito, polo azul marino con estampado, polo celeste con ribete blanco) | `assets/moda-hombre/harmont-blaine/` |
 
 *(Faltan las demás marcas — ver sección 6).*
 
