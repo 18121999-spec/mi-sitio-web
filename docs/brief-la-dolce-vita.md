@@ -53,21 +53,30 @@ Dos bloques grandes lado a lado, cada uno con una imagen de fondo y overlay de t
 
 Al hacer click, cada cuadro llevaría a la sección/categoría correspondiente.
 
-### 3.2 Sección MODA MUJER
+> **Actualización:** se elimina la sección `MODA MUJER`. En su lugar (primera sección del cuerpo,
+> justo debajo del selector HOMBRE/MUJER) va `MODA HOMBRE`, organizada en subcategorías **por
+> marca** (una subsección por cada carpeta/marca que se reciba).
 
-- Título de sección: `MODA MUJER`
-- Grid de **4 imágenes** (looks/prendas de mujer) — *pendientes, ver sección 5*.
-
-### 3.3 Sección MODA HOMBRE
+### 3.2 Sección MODA HOMBRE
 
 - Título de sección: `MODA HOMBRE`
-- Grid de **4 imágenes** (looks/prendas de hombre) — *pendientes, ver sección 5*.
+- Organizada por **subcategorías de marca** (una fila/grid por marca), según las imágenes
+  recibidas — *pendientes, ver sección 5*.
 
-### 3.4 Sección NOVEDADES
+### 3.3 Sección NOVEDADES
 
 - Título de sección: `NOVEDAD` (o "NOVEDADES")
 - Espacio de galería abierto para nuevas incorporaciones de ropa (cantidad de imágenes flexible,
   pensado para poder ir agregando productos nuevos).
+
+---
+
+### 3.4 Carrito de compra
+
+- Botón "Agregar al carrito" en cada producto.
+- Panel/página de carrito: ver productos agregados, cantidades, quitar productos, subtotal.
+- **Sin pasarela de pago todavía** — el checkout final (pago) queda pendiente hasta que definan el
+  método de pago a usar en Ecuador. Por ahora el carrito es funcional pero no procesa cobros.
 
 ---
 
@@ -76,28 +85,33 @@ Al hacer click, cada cuadro llevaría a la sección/categoría correspondiente.
 - Datos de contacto (dirección/ciudad en Ecuador, teléfono, email, WhatsApp).
 - Redes sociales (Instagram, etc.).
 - Aviso legal / política de envíos y devoluciones (Ecuador).
+- Selector de idioma: 🇪🇸 Español (por defecto) / 🇬🇧 English / 🇮🇹 Italiano.
 
 ---
 
-## 5. Información pendiente que necesito de ti
+## 5. Decisiones ya confirmadas
 
-Para poder construir la página con contenido real, me faltaría:
+- **Idioma:** español por defecto, con opción de inglés e italiano (i18n).
+- **Tienda:** sí lleva carrito de compra; **no** lleva pago integrado por ahora.
+- **Hosting:** se despliega en **Vercel** mientras se compra el dominio definitivo.
+- **Stack propuesto:** Next.js + Tailwind CSS (soporta i18n nativo, carrito con estado simple, y
+  despliegue directo en Vercel) — a confirmar por el cliente.
+- **Imágenes de producto:** vendrán organizadas por **categoría de marca** (una carpeta por marca)
+  para la sección `MODA HOMBRE`.
 
-1. **Imágenes:**
-   - 4 imágenes para `MODA MUJER`.
-   - 4 imágenes para `MODA HOMBRE`.
-   - Imágenes para `NOVEDADES` (las que tengas disponibles).
-   - Imagen(es) de fondo para los dos cuadros `HOMBRE` / `MUJER`.
+---
+
+## 6. Información pendiente que necesito de ti
+
+1. **Imágenes** (no se pudieron leer desde la carpeta de Google Drive compartida — este entorno no
+   tiene acceso a `drive.google.com` — necesito que las envíes por otro medio: adjuntas en el chat,
+   subidas al repo en GitHub, o un link de descarga directa/zip):
+   - Imágenes de `MODA HOMBRE`, organizadas por marca.
+   - Imágenes para `NOVEDADES`.
+   - Imagen(es) de fondo para los cuadros `HOMBRE` / `MUJER` del selector de categoría.
    - Logo (si existe alguno además del texto "LA DOLCE VITA").
 2. **Datos de contacto:** dirección/ciudad en Ecuador, teléfono/WhatsApp, email, redes sociales.
-3. **Tipo de sitio:**
-   - ¿Catálogo informativo (sin compra online) o **tienda con carrito/checkout**?
-   - Si es tienda: ¿qué método de pago usarán en Ecuador (transferencia, tarjeta, Payphone,
-     PlacetoPay, etc.)?
-4. **Idioma:** ¿solo español, o también italiano/inglés?
-5. **Dominio y hosting:** ¿ya tienen dominio comprado? ¿dónde se va a alojar el sitio?
-6. **Tecnología:** ¿preferencia de stack (ej. Next.js + Tailwind) o te doy una recomendación yo
-   usando las skills que ya agregamos (`senior-frontend`, `senior-backend`, `seo-optimizer`)?
+3. **Confirmación de stack:** ¿Next.js + Tailwind está bien, o prefieres otra tecnología?
 
 En cuanto me pases las imágenes y estos datos, armo la estructura del proyecto (frontend con la
 estética definida arriba) y la dejo lista en el repo.
