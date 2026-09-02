@@ -115,3 +115,18 @@ Garamond") + un sans-serif fino para textos y menú (ej. "Montserrat Light" o "J
 
 El sitio se empieza a construir ahora con lo disponible; el contenido pendiente se agrega
 incrementalmente sin bloquear el desarrollo.
+
+---
+
+## 7. Estado del desarrollo
+
+Sitio construido con **Next.js + Tailwind CSS**, con las 3 marcas cargadas (15 productos),
+carrito de compra funcional (sin pago) y los 3 idiomas (`/es`, `/en`, `/it`). Ver
+[`README.md`](../README.md) para instrucciones de desarrollo y despliegue.
+
+Pendiente de reemplazar cuando llegue la información real:
+- Precios de producto (`lib/products.ts`) — son placeholders.
+- Datos de contacto en la página `CONTACTO` y el footer.
+- Imagen de fondo/hero para la home.
+- Logo, si existe alguno además del texto "LA DOLCE VITA".
+- Más marcas en el catálogo.

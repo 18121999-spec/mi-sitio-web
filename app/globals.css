@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f8f6f2;
+  --ink: #1a1a1a;
+  --gold: #b08d57;
+  --sand: #e4dccf;
+  --line: #d8d2c4;
+  --wine: #5c1a1b;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-ink: var(--ink);
+  --color-gold: var(--gold);
+  --color-sand: var(--sand);
+  --color-line: var(--line);
+  --color-wine: var(--wine);
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+}
